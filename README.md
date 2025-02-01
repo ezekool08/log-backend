@@ -96,27 +96,6 @@ Response:
 }
 ```
 
-## Project Structure
-
-```
-log-backend/
-├── src/
-│   ├── routes/
-│   │   └── log.routes.ts
-│   └── index.ts
-├── migrations/
-│   └── 1699000000000_create-log-table.js
-├── terraform/
-│   └── main.tf
-├── .github/
-│   └── workflows/
-│       └── ci-cd.yml
-├── .env.example
-├── .gitignore
-├── package.json
-└── tsconfig.json
-```
-
 ## Development
 
 - `npm run dev`: Start development server with hot-reload
@@ -141,7 +120,3 @@ The Terraform configuration creates:
 - RDS PostgreSQL instance
 - Elastic Beanstalk environment
 - Security groups and required networking
-
-## License
-
-ISC
